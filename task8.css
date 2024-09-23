@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+.parent{
+    display: flex;
+    border: 2px solid rgb(196, 194, 194);
+    margin: 100px;
+}
+.child1{
+    padding: 30px;
+    width: 50%;
+    line-height: 35px;
+}
+.child1>h3{
+    padding: 20px 0px;
+}
+.child1>p{
+    color: rgb(187, 178, 178);
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgb(170, 152, 156);
+    box-shadow: 1px 1px 2px 0px rgb(182, 168, 168);
+    /* gap: 25px; */
+}
+.btn{
+    background-color: aliceblue;
+    color: crimson;
+    margin-left: 15px;
+    border-bottom: 1px solid rgb(170, 152, 156);
+    box-shadow: 1px 1px 2px 0px rgb(182, 168, 168);
+}
+.child1>h4{
+    padding: 10px 0px 5px;
+}
+.child2{
+    width: 50%;
+}
+.child2>img{
+    margin: -2px 0px -25px 0px;
+}
